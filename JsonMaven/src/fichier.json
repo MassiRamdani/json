@@ -1,0 +1,413 @@
+[
+    {
+      "userId": "619a3c9c0cf2c035ee0aa284",
+      "deviceType": "IOS",
+      "favoriteTrips": [],
+      "favoritePlaces": [],
+      "orders": [],
+      "itineraries": [],
+      "terOrders": [
+        {
+          "itinerary": {
+            "origin": {
+              "longitude": -2.09778903,
+              "latitude": 47.11449501,
+              "accuracy": null,
+              "altitude": null,
+              "timestamp": null,
+              "speed": null,
+              "type": null,
+              "uic": "87481283"
+            },
+            "destination": {
+              "longitude": -1.54192517,
+              "latitude": 47.21750472,
+              "accuracy": null,
+              "altitude": null,
+              "timestamp": null,
+              "speed": null,
+              "type": null,
+              "uic": "87481002"
+            },
+            "departureDate": "2021-11-28T16:50:00+01:00",
+            "arrivalDate": "2021-11-28T17:50:00+01:00",
+            "itinerarySteps": [
+              {
+                "origin": {
+                  "longitude": -2.09778903,
+                  "latitude": 47.11449501,
+                  "accuracy": null,
+                  "altitude": null,
+                  "timestamp": null,
+                  "speed": null,
+                  "type": null,
+                  "uic": "87481283"
+                },
+                "destination": {
+                  "longitude": -1.54192517,
+                  "latitude": 47.21750472,
+                  "accuracy": null,
+                  "altitude": null,
+                  "timestamp": null,
+                  "speed": null,
+                  "type": null,
+                  "uic": "87481002"
+                },
+                "departureDate": "2021-11-28T16:50:00+01:00",
+                "arrivalDate": "2021-11-28T17:50:00+01:00",
+                "type": "TRANSPORTATION",
+                "transportationInfo": {
+                  "number": "859294",
+                  "line": null,
+                  "offerManager": null,
+                  "type": "TRAIN",
+                  "trainType": "TER",
+                  "missionCode": null,
+                  "isShort": null,
+                  "direction": null,
+                  "isSubstitute": false
+                },
+                "doorToDoorCategory": "MAIN"
+              }
+            ]
+          },
+          "cadTerOrderItinerary": {
+            "userId": null,
+            "originSequenceId": null,
+            "origin": {
+              "longitude": -2.09778903,
+              "latitude": 47.11449501,
+              "accuracy": null,
+              "altitude": null,
+              "timestamp": null,
+              "speed": null,
+              "type": null,
+              "uic": "87481283"
+            },
+            "destinationSequenceId": null,
+            "destination": {
+              "longitude": -1.54192517,
+              "latitude": 47.21750472,
+              "accuracy": null,
+              "altitude": null,
+              "timestamp": null,
+              "speed": null,
+              "type": null,
+              "uic": "87481002"
+            },
+            "originUsualLocation": null,
+            "destinationUsualLocation": null,
+            "duration": null,
+            "score": null
+          },
+          "validityPeriod": {
+            "begin": "2021-11-27T23:00:00.000+00:00",
+            "end": "2021-11-28T22:59:59.000+00:00"
+          },
+          "direction": "OUTWARD"
+        },
+        {
+          "itinerary": {
+            "origin": {
+              "longitude": -1.54192517,
+              "latitude": 47.21750472,
+              "accuracy": null,
+              "altitude": null,
+              "timestamp": null,
+              "speed": null,
+              "type": null,
+              "uic": "87481002"
+            },
+            "destination": {
+              "longitude": -2.16164009,
+              "latitude": 47.32104668,
+              "accuracy": null,
+              "altitude": null,
+              "timestamp": null,
+              "speed": null,
+              "type": null,
+              "uic": "87481713"
+            },
+            "departureDate": "2021-11-26T17:35:00+01:00",
+            "arrivalDate": "2021-11-26T18:12:30+01:00",
+            "itinerarySteps": [
+              {
+                "origin": {
+                  "longitude": -1.54192517,
+                  "latitude": 47.21750472,
+                  "accuracy": null,
+                  "altitude": null,
+                  "timestamp": null,
+                  "speed": null,
+                  "type": null,
+                  "uic": "87481002"
+                },
+                "destination": {
+                  "longitude": -2.16164009,
+                  "latitude": 47.32104668,
+                  "accuracy": null,
+                  "altitude": null,
+                  "timestamp": null,
+                  "speed": null,
+                  "type": null,
+                  "uic": "87481713"
+                },
+                "departureDate": "2021-11-26T17:35:00+01:00",
+                "arrivalDate": "2021-11-26T18:12:30+01:00",
+                "type": "TRANSPORTATION",
+                "transportationInfo": {
+                  "number": "858025",
+                  "line": null,
+                  "offerManager": null,
+                  "type": "TRAIN",
+                  "trainType": "TER",
+                  "missionCode": null,
+                  "isShort": null,
+                  "direction": null,
+                  "isSubstitute": false
+                },
+                "doorToDoorCategory": "MAIN"
+              }
+            ]
+          },
+          "cadTerOrderItinerary": {
+            "userId": null,
+            "originSequenceId": null,
+            "origin": {
+              "longitude": -1.54192517,
+              "latitude": 47.21750472,
+              "accuracy": null,
+              "altitude": null,
+              "timestamp": null,
+              "speed": null,
+              "type": null,
+              "uic": "87481002"
+            },
+            "destinationSequenceId": null,
+            "destination": {
+              "longitude": -2.16164009,
+              "latitude": 47.32104668,
+              "accuracy": null,
+              "altitude": null,
+              "timestamp": null,
+              "speed": null,
+              "type": null,
+              "uic": "87481713"
+            },
+            "originUsualLocation": null,
+            "destinationUsualLocation": null,
+            "duration": null,
+            "score": null
+          },
+          "validityPeriod": {
+            "begin": "2021-11-25T23:00:00.000+00:00",
+            "end": "2021-11-26T22:59:59.000+00:00"
+          },
+          "direction": "OUTWARD"
+        },
+        {
+          "itinerary": {
+            "origin": {
+              "longitude": -1.545339,
+              "latitude": 47.258918,
+              "accuracy": null,
+              "altitude": null,
+              "timestamp": null,
+              "speed": null,
+              "type": null,
+              "uic": "87590349"
+            },
+            "destination": {
+              "longitude": -1.503416,
+              "latitude": 47.441999,
+              "accuracy": null,
+              "altitude": null,
+              "timestamp": null,
+              "speed": null,
+              "type": null,
+              "uic": "87481598"
+            },
+            "departureDate": "2021-12-21T16:25:10+01:00",
+            "arrivalDate": "2021-12-21T16:47:00+01:00",
+            "itinerarySteps": [
+              {
+                "origin": {
+                  "longitude": -1.545339,
+                  "latitude": 47.258918,
+                  "accuracy": null,
+                  "altitude": null,
+                  "timestamp": null,
+                  "speed": null,
+                  "type": null,
+                  "uic": "87590349"
+                },
+                "destination": {
+                  "longitude": -1.503416,
+                  "latitude": 47.441999,
+                  "accuracy": null,
+                  "altitude": null,
+                  "timestamp": null,
+                  "speed": null,
+                  "type": null,
+                  "uic": "87481598"
+                },
+                "departureDate": "2021-12-21T16:25:10+01:00",
+                "arrivalDate": "2021-12-21T16:47:00+01:00",
+                "type": "TRANSPORTATION",
+                "transportationInfo": {
+                  "number": "859562",
+                  "line": null,
+                  "offerManager": null,
+                  "type": "TRAIN",
+                  "trainType": "TER",
+                  "missionCode": null,
+                  "isShort": null,
+                  "direction": null,
+                  "isSubstitute": false
+                },
+                "doorToDoorCategory": "MAIN"
+              }
+            ]
+          },
+          "cadTerOrderItinerary": {
+            "userId": null,
+            "originSequenceId": null,
+            "origin": {
+              "longitude": -1.545339,
+              "latitude": 47.258918,
+              "accuracy": null,
+              "altitude": null,
+              "timestamp": null,
+              "speed": null,
+              "type": null,
+              "uic": "87590349"
+            },
+            "destinationSequenceId": null,
+            "destination": {
+              "longitude": -1.503416,
+              "latitude": 47.441999,
+              "accuracy": null,
+              "altitude": null,
+              "timestamp": null,
+              "speed": null,
+              "type": null,
+              "uic": "87481598"
+            },
+            "originUsualLocation": null,
+            "destinationUsualLocation": null,
+            "duration": null,
+            "score": null
+          },
+          "validityPeriod": {
+            "begin": "2021-12-20T23:00:00.000+00:00",
+            "end": "2021-12-21T22:59:59.000+00:00"
+          },
+          "direction": "OUTWARD"
+        }
+      ],
+      "timestamp": "2022-02-02T01:13:46.394Z"
+    },
+    {
+      "userId": "0e69efd6-d144-4d3c-8ecf-22757a7f8c7f",
+      "deviceType": "ANDROID",
+      "favoriteTrips": null,
+      "favoritePlaces": [],
+      "orders": [
+        {
+          "inwardItinerary": {
+            "origin": null,
+            "destination": null,
+            "departureDate": null,
+            "arrivalDate": null,
+            "itinerarySteps": [
+              {
+                "origin": {
+                  "longitude": 2.3205,
+                  "latitude": 48.8409,
+                  "accuracy": null,
+                  "altitude": null,
+                  "timestamp": "2022-01-30T19:35:00+01:00",
+                  "speed": null,
+                  "type": null,
+                  "uic": "87391003"
+                },
+                "destination": {
+                  "longitude": -1.5424,
+                  "latitude": 47.2182,
+                  "accuracy": null,
+                  "altitude": null,
+                  "timestamp": "2022-01-30T21:55:00+01:00",
+                  "speed": null,
+                  "type": null,
+                  "uic": "87481002"
+                },
+                "departureDate": "2022-01-30T19:35:00+01:00",
+                "arrivalDate": "2022-01-30T21:55:00+01:00",
+                "type": "TRANSPORTATION",
+                "transportationInfo": {
+                  "number": "8887",
+                  "line": null,
+                  "offerManager": null,
+                  "type": "TRAIN",
+                  "trainType": "INOUI",
+                  "missionCode": null,
+                  "isShort": null,
+                  "direction": null,
+                  "isSubstitute": false
+                },
+                "doorToDoorCategory": null
+              }
+            ]
+          },
+          "outwardItinerary": {
+            "origin": null,
+            "destination": null,
+            "departureDate": null,
+            "arrivalDate": null,
+            "itinerarySteps": [
+              {
+                "origin": {
+                  "longitude": -1.5424,
+                  "latitude": 47.2182,
+                  "accuracy": null,
+                  "altitude": null,
+                  "timestamp": "2022-01-29T07:05:00+01:00",
+                  "speed": null,
+                  "type": null,
+                  "uic": "87481002"
+                },
+                "destination": {
+                  "longitude": 2.3205,
+                  "latitude": 48.8409,
+                  "accuracy": null,
+                  "altitude": null,
+                  "timestamp": "2022-01-29T09:08:00+01:00",
+                  "speed": null,
+                  "type": null,
+                  "uic": "87391003"
+                },
+                "departureDate": "2022-01-29T07:05:00+01:00",
+                "arrivalDate": "2022-01-29T09:08:00+01:00",
+                "type": "TRANSPORTATION",
+                "transportationInfo": {
+                  "number": "8804",
+                  "line": null,
+                  "offerManager": null,
+                  "type": "TRAIN",
+                  "trainType": "INOUI",
+                  "missionCode": null,
+                  "isShort": null,
+                  "direction": null,
+                  "isSubstitute": false
+                },
+                "doorToDoorCategory": null
+              }
+            ]
+          }
+        }
+      ],
+      "itineraries": null,
+      "terOrders": null,
+      "timestamp": "2022-02-02T01:13:46.549Z"
+    }
+  ]

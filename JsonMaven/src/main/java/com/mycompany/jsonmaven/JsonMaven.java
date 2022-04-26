@@ -9,6 +9,7 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
+
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -16,11 +17,11 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
- 
 public class JsonMaven {
 
     public static void main(String[] args) throws Exception {
-        String file = "C:\\Users\\ma.ramdani\\OneDrive - BYCN\\Bureau\\json\\fichier.json";
+
+        String file = "src/fichier.json";
         String json = new String(Files.readAllBytes(Paths.get(file)));
         ObjectMapper mapper = new ObjectMapper();
         JsonMaven jsonMaven = new JsonMaven();
@@ -39,12 +40,8 @@ public class JsonMaven {
     public boolean verfierUic(List<String> listeUic) {
         for (String str : listeUic) {
             if (!str.matches("[0-9]{8}")) {
-                System.err.println("ddsv");
-                                return false;
-
-                
+                return false;
             }
-            
         }
         return true;
 
