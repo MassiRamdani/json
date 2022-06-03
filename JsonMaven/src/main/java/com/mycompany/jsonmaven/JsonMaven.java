@@ -23,9 +23,15 @@ public class JsonMaven {
 
         String file = "src/fichier.json";
         String json = new String(Files.readAllBytes(Paths.get(file)));
+        
         ObjectMapper mapper = new ObjectMapper();
+        //instance de class jsonmaven
         JsonMaven jsonMaven = new JsonMaven();
+        
+        //recuperer la liste des cles uic
         List<String> listeUic = jsonMaven.getList(json, mapper);
+        
+        //verfier la validité des cles uic
         if (jsonMaven.verfierUic(listeUic)) {
             System.out.println("Les fichier est valide ");
 
